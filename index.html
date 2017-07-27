@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>ExamRig-Online Examination system</title>
+<!-- Bootstrap Core CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<!-- Custom Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Mrs+Sheppards%7CDosis:300,400,700%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800;' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+<!-- Plugin CSS -->
+<link rel="stylesheet" href="css/animate.min.css" type="text/css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		
+		</button>
+		<a class="navbar-brand page-scroll" href="#page-top"><img style="position:absolute; TOP:0px; LEFT:10px;" src="img/logo.png" alt="ExamRig" align="left"></a>
+	</div>
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background-color: rgba(255, 255, 255, 0.9);">
+
+		<ul class="nav navbar-nav navbar-right">
+			<li>
+			<a class="page-scroll" href="#page-top">HOME</a>
+			</li>
+			<li>
+			<a class="page-scroll" href="#about">ABOUT</a>
+			
+			</li>
+			<li >
+			<a class="page-scroll" href="#portfolio"><span>LANGUAGES</span></a>
+			</li>
+			<li >
+			<a class="page-scroll" href="#services"><span>SERVICES</span></a>
+		    </li>
+		    <li>
+			<a class="page-scroll" href="login.jsp">LOGIN</a>
+			</li>
+            <li>
+			<a class="page-scroll" href="reg.jsp">SIGN UP</a>
+			</li>
+			<li>
+			<a class="page-scroll" href="admin.jsp">ADMIN</a>
+			</li>
+			<li>
+			<a class="page-scroll" href="contact us.jsp">Contact</a>
+			</li>
+		</ul>
+	</div>
+	<!-- /.navbar-collapse -->
+</div>
+<!-- /.container -->
+</nav>
+
+<!-- Section Intro Slider
+================================================== -->
+ 
+<div id="carousel-example-generic" class="carousel intro slide" data-ride="carousel" data-interval="4000">
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+	
+	</ol>
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner" role="listbox">
+		<!-- First slide -->
+		<div class="item active" style="background-image:url(img/demo/slide1.jpg)">
+			<div class="carousel-caption">
+				<h1 data-animation="animated bounceInUp" >
+				 ExamRig</h1>
+				<h2 data-animation="animated bounceInDown">
+				Online Examination System </h2>
+				
+				<a href="login.jsp" class="btn btn-ghost btn-lg" data-animation="animated bounceIn">LOGIN</a><a href="reg.jsp" class="btn btn-primary btn-lg" data-animation="animated bounceIn">REGISTER</a>
+				
+			</div>
+		</div>
+		<!-- /.item -->
+		<!-- Second slide -->
+		<div class="item" style="background-image:url(img/demo/slide2.jpg)">
+			<div class="carousel-caption">
+				<h2 data-animation="animated zoomInLeft" >
+				Online Examnation System </h2>
+				<h1 data-animation="animated zoomInRight" >
+				Explore !</h1>
+				
+			</div>
+		</div>
+		<!-- /.item -->
+		<!-- Third slide -->
+		<div class="item" style="background-image:url(img/demo/slide3.jpg)">
+			<div class="carousel-caption">
+				<h2 data-animation="animated bounceInLeft">
+				Online Examnation System</h2>
+				<h1 data-animation="animated bounceInRight" >
+				Learn !</h1>
+				
+			</div>
+		</div>
+		<!-- Second slide -->
+		<div class="item" style="background-image:url(img/demo/slide5.jpg)">
+			<div class="carousel-caption">
+				<h2 data-animation="animated zoomInLeft" >
+				 Online Examnation System</h2>
+				<h1 data-animation="animated zoomInRight" >
+				Test ! </h1>
+				
+			</div>
+		</div>
+		<!-- /.item -->
+	
+		<!-- /.item -->
+		<!-- Second slide -->
+		<div class="item" style="background-image:url(img/demo/slide4.jpg)">
+			<div class="carousel-caption">
+				<h2 data-animation="animated zoomInLeft">
+				Online Examnation System </h2>
+				<h1 data-animation="animated zoomInRight" >
+				Practice ! </h1>
+				
+			</div>
+		</div>
+		<!-- /.item -->
+	</div>
+	<!-- /.carousel-inner -->
+	<!-- Controls (currently displayed none from style.css)-->
+	<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+	<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	<span class="sr-only">Previous</span>
+	</a>
+	<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+	<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	<span class="sr-only">Next</span>
+	</a>
+</div>
+<!-- /.carousel -->
+
+<!-- Section About
+================================================== -->
+<section id="about">
+<div class="container">
+	<div class="row">
+		<div class="col-lg-10 col-lg-offset-1 text-center">
+			<h2 class="section-heading">WHAT WE STAND FOR<br/><b></b></h2>
+			<hr>
+			<p>
+				 Online Examination System fulfills the requirements of the institutes to conduct the exams online. They do not have to go to any software developer to make a separate site for being able to conduct exams online. They just have to register on the site and enter the exam details and the lists of the students which can appear in the exam.</p>
+			<p>
+				 Students can give exam without the need of going to any physical destination. They can view the result at the same time.
+			</p>
+			<p>
+				 Thus the purpose of the site is to provide a system that saves the efforts and time of both the institutes and the students.
+			</p>
+	</div>
+</div>
+</div>
+</section>
+
+<!-- Section after about
+================================================== -->
+<!-- Section Portfolio
+================================================== -->
+<section id="portfolio">
+<div class="container">
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<h2 class="section-heading"><b>- LANGUAGES -</b></h2>
+		<hr class="primary">
+		<br/>
+	</div>
+</div>
+</div>
+<div class="container-fluid">
+<div class="row no-gutter">
+	<div class="col-lg-4 col-sm-6">
+		<a href="#" class="portfolio-box">
+		<img src="img/demo/c.jpg" class="img-responsive" alt="">
+		<div class="portfolio-box-caption">
+			<div class="portfolio-box-caption-content">
+				<div class="project-category text-faded">
+					 ***
+				</div>
+				<div class="project-name">
+					 C Language
+				</div>
+			</div>
+		</div>
+		</a>
+	</div>
+	<div class="col-lg-4 col-sm-6">
+		<a href="#" class="portfolio-box">
+		<img src="img/demo/cpp.jpg" class="img-responsive" alt="">
+		<div class="portfolio-box-caption">
+			<div class="portfolio-box-caption-content">
+				<div class="project-category text-faded">
+					 ***
+				</div>
+				<div class="project-name">
+					 C++ Language
+				</div>
+			</div>
+		</div>
+		</a>
+	</div>
+	<div class="col-lg-4 col-sm-6">
+		<a href="#" class="portfolio-box">
+		<img src="img/demo/java.jpg" class="img-responsive" alt="">
+		<div class="portfolio-box-caption">
+			<div class="portfolio-box-caption-content">
+				<div class="project-category text-faded">
+					 ***
+				</div>
+				<div class="project-name">
+					 Java Language
+				</div>
+			</div>
+		</div>
+		</a>
+	</div>
+	<div class="col-lg-4 col-sm-6">
+		<a href="#" class="portfolio-box">
+		<img src="img/demo/py.jpg" class="img-responsive" alt="">
+		<div class="portfolio-box-caption">
+			<div class="portfolio-box-caption-content">
+				<div class="project-category text-faded">
+					 ***
+				</div>
+				<div class="project-name">
+					 Python Language
+				</div>
+			</div>
+		</div>
+		</a>
+	</div>
+	<div class="col-lg-4 col-sm-6">
+		<a href="#" class="portfolio-box">
+		<img src="img/demo/php.jpg" class="img-responsive" alt="">
+		<div class="portfolio-box-caption">
+			<div class="portfolio-box-caption-content">
+				<div class="project-category text-faded">
+					 ***
+				</div>
+				<div class="project-name">
+					 PHP
+				</div>
+			</div>
+		</div>
+		</a>
+	</div>
+	<div class="col-lg-4 col-sm-6">
+		<a href="#" class="portfolio-box">
+		<img src="img/demo/and.jpg" class="img-responsive" alt="">
+		<div class="portfolio-box-caption">
+			<div class="portfolio-box-caption-content">
+				<div class="project-category text-faded">
+					 ***
+				</div>
+				<div class="project-name">
+					 Android
+				</div>
+			</div>
+		</div>
+		</a>
+	</div>
+</div>
+</div>
+</section>
+
+<!-- Section Services
+================================================== -->
+<section id="services">
+<div class="container">
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<h2 class="section-heading">OUR <b>SERVICES</b></h2>
+		<hr class="primary">
+	</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+	<!-- begin 1st row -->
+	<div class="col-lg-4 col-md-6 text-center">
+		<div class="service-box">
+			<div class="iconbox bg-primary">
+				<i class="fa fa-2x fa-trophy wow bounceIn text-fade"></i>
+			</div>
+			<h3>Online Registration</h3>
+			<p class="text-muted">
+				 Duis at risus dignissim, mollis augue quis, congue leo. Curabitur sed lacus ut lectus pharetra malesuada et sit amet ligula.
+			</p>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6 text-center">
+		<div class="service-box">
+			<div class="iconbox bg-dark">
+				<i class="fa fa-2x fa-cloud wow bounceIn text-fade" data-wow-delay=".1s"></i>
+			</div>
+			<h3>Responsive Layout</h3>
+			<p class="text-muted">
+				 Duis at risus dignissim, mollis augue quis, congue leo. Curabitur sed lacus ut lectus pharetra malesuada et sit amet ligula.
+			</p>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6 text-center">
+		<div class="service-box">
+			<div class="iconbox bg-primary">
+				<i class="fa fa-2x fa-newspaper-o wow bounceIn text-fade" data-wow-delay=".2s"></i>
+			</div>
+			<h3>Question Paper Creation</h3>
+			<p class="text-muted">
+				 Duis at risus dignissim, mollis augue quis, congue leo. Curabitur sed lacus ut lectus pharetra malesuada et sit amet ligula.
+			</p>
+		</div>
+	</div>
+</div>
+<!-- end 1st row -->
+<br/>
+<div class="row">
+	<!-- begin 2nd row -->
+	<div class="col-lg-4 col-md-6 text-center">
+		<div class="service-box">
+			<div class="iconbox bg-dark">
+				<i class="fa fa-2x fa-yelp wow bounceIn text-fade"></i>
+			</div>
+			<h3>Exam progress monitoring</h3>
+			<p class="text-muted">
+				 Duis at risus dignissim, mollis augue quis, congue leo. Curabitur sed lacus ut lectus pharetra malesuada et sit amet ligula.
+			</p>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6 text-center">
+		<div class="service-box">
+			<div class="iconbox bg-primary">
+				<i class="fa fa-2x fa-wordpress wow bounceIn text-fade" data-wow-delay=".1s"></i>
+			</div>
+			<h3>Result processing</h3>
+			<p class="text-muted">
+				 Duis at risus dignissim, mollis augue quis, congue leo. Curabitur sed lacus ut lectus pharetra malesuada et sit amet ligula.
+			</p>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6 text-center">
+		<div class="service-box">
+			<div class="iconbox bg-dark">
+				<i class="fa fa-2x fa-desktop wow bounceIn text-fade" data-wow-delay=".2s"></i>
+			</div>
+			<h3>Security</h3>
+			<p class="text-muted">
+				 Duis at risus dignissim, mollis augue quis, congue leo. Curabitur sed lacus ut lectus pharetra malesuada et sit amet ligula.
+			</p>
+		</div>
+	</div>
+</div>
+<!-- end 2nd row -->
+</div>
+</section>
+<div class="clearfix">
+</div>
+
+<!-- Section Team
+================================================== -->
+<section class="no-padding">
+<div class="col-md-4 bg-primary no-padding teambox">
+
+<div class="team-thumb overlay-image view-overlay">
+	<img src="img/demo/aa.jpg" alt="" class="img-responsive">
+	<div class="mask team_quote">
+		<div class="port-zoom-link">
+			<p>
+				 ONLINE EDUCATION VS CLASSROOM EDUCATION
+			</p>
+		</div>
+	</div>
+</div>
+
+<h2>ONLINE VS CLASSROOM</h2>
+<p>
+	 Online Programs Can Provide Greater Convenience in Comparison to a Traditional Classroom Schedule Traditional Classroom Schedule. 
+</p>
+
+</div>
+<div class="col-md-4 bg-dark no-padding teambox">
+<div class="team-thumb overlay-image view-overlay">
+	<img src="img/demo/bb.jpg" alt="" class="img-responsive">
+	<div class="mask team_quote">
+		<div class="port-zoom-link">
+			<p>
+				 Distance education makes higher education accessible to all
+			</p>
+		</div>
+	</div>
+</div>
+<h2>ACCESSIBILITY</h2>
+<p>
+	Distance learning has succeeded in eliminating barriers and borders, giving everyone the opportunity to have access to education. 
+</p>
+
+
+</div>
+<div class="col-md-4 bg-primary no-padding teambox">
+<div class="team-thumb overlay-image view-overlay">
+	<img src="img/demo/cc.jpg" alt="" class="img-responsive">
+	<div class="mask team_quote">
+		<div class="port-zoom-link">
+			<p>
+				 Online studies unite thousands of students worldwide
+			</p>
+		</div>
+	</div>
+</div>
+<h2>HUGE RESOURCES</h2>
+<p>
+	 The use of electronic communication tools available in open universities, such as Elluminate Live! and webcasts unites students around the world.
+</p>
+
+
+</div>
+
+</section>
+<div class="clearfix">
+</div>
+
+<!-- Section Testimonials
+================================================== -->
+<section id="testimonials">
+<div class="container" >
+<div class="row" >
+	<div class="col-md-12" data-wow-delay="0.05s" data-ride="carousel" data-interval="1000">
+		<div class="carousel slide" data-ride="carousel" id="quote-carousel">
+			<!-- Bottom Carousel Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#quote-carousel" data-slide-to="0" class="active"><img class="img-responsive " src="img/demo/vini.jpg" alt="">
+				</li>
+				<li data-target="#quote-carousel" data-slide-to="1"><img class="img-responsive" src="img/demo/yash.jpg" alt="">
+				</li>
+
+				<li data-target="#quote-carousel" data-slide-to="2"><img class="img-responsive" src="img/demo/vbv.jpg" alt="">
+				</li>
+				
+				<li data-target="#quote-carousel" data-slide-to="3"><img class="img-responsive" src="img/demo/utk.jpg" alt="">
+				</li>
+			</ol>
+			<!-- Carousel Slides / Quotes -->
+			<div class="carousel-inner text-center">
+				<!-- Quote 1 -->
+				<div class="item active">
+					<blockquote>
+						<div class="row">
+							<div class="col-sm-8 col-sm-offset-2">
+								<p>
+									- Vedika Shrivastava -
+								</p>
+								<small>"Our greatest weakness lies in giving up. The most certain way to succeed is always to try just one more time."</small>
+							</div>
+						</div>
+					</blockquote>
+				</div>
+
+				<!-- Quote 2 -->
+				<div class="item">
+					<blockquote>
+						<div class="row">
+							<div class="col-sm-8 col-sm-offset-2">
+								<p>
+								- Yash Bhawsar -
+								</p>
+								<small>"Quality performance starts with a positive attitude."</small>
+							</div>
+						</div>
+					</blockquote>
+				</div>
+				<!-- Quote 3 -->
+				<div class="item">
+					<blockquote>
+						<div class="row">
+							<div class="col-sm-8 col-sm-offset-2">
+								<p>
+									- Vaibhav Agrawal -
+								</p>
+								<small>“It’s not about having the right opportunities. It’s about handling the opportunities right.”</small>
+							</div>
+						</div>
+					</blockquote>
+				</div>
+
+				<!-- Quote 4 -->
+				<div class="item">
+					<blockquote>
+						<div class="row">
+							<div class="col-sm-8 col-sm-offset-2">
+								<p>
+									- Utkarsh Bandhu Sharma -
+								</p>
+								<small>"We cannot solve our problems with the same thinking we used when we created them." </small>
+							</div>
+						</div>
+					</blockquote>
+				</div>
+				<!-- End Quote 2 -->
+			</div>
+			<!-- Carousel Buttons Next/Prev -->
+			<a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+			<a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+		</div>
+	</div>
+</div>
+</div>
+</section>
+
+<!-- Section Fun Facts
+================================================== -->
+<section id="funfacts" class="parallax parallax-image" style="background-image:url(img/demo/count.jpg);">
+<div class="wrapsection">
+<div class="container">
+	<div class="parallax-content">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="funfacts text-center">
+					<div class="icon">
+						<i class="fa fa-user"></i>
+					</div>
+					<h2 class="counter" data-from="0" data-to="294" data-speed="2500"></h2>
+					<h4>Number of Students</h4>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="funfacts text-center">
+					<div class="icon">
+						<i class="fa fa-trophy"></i>
+					</div>
+					<h2 class="counter" data-from="0" data-to="10" data-speed="250"></h2>
+					<h4>Number Of Subjects</h4>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="funfacts text-center">
+					<div class="icon">
+						<i class="fa fa-send-o"></i>
+					</div>
+					<h2 class="counter" data-from="0" data-to="917" data-speed="2500"></h2>
+					<h4>Likes</h4>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="funfacts text-center">
+					<div class="icon">
+						<i class="fa fa-user"></i>
+					</div>
+					<h2 class="counter" data-from="0" data-to="45" data-speed="250"></h2>
+					<h4>Number Of Papers</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</section>
+<div class="clearfix">
+</div>
+
+
+
+<!-- Section Pricing
+================================================== -->
+
+
+<!-- Section after pricing
+================================================== -->
+
+
+<!-- Section Timeline
+================================================== -->
+<section id="tline">
+<div class="container">
+<div class="row">
+	<div class="col-lg-12 text-center">
+		<h2 class="section-heading"><b>Timeline</b></h2>
+	</div>
+</div>
+</div>
+<br/>
+<div class="container">
+<div class="row">
+	<div class="col-md-12">
+		<ul class="tline-holder">
+			<!-- tline ITEM-->
+			<li class="tline-item-left wow fadeInLeft">
+			<div class="tline-item-content">
+				<div class="date-icon fa fa-rocket">
+				</div>
+				<div class="tline-item-txt text-right">
+					<div class="meta">
+						 
+					</div>
+					<h3>Creation Of Exams</h3>
+					<p>
+						 Obviously, an exam will have to be created. Examiners can create exams online. 
+					</p>
+				</div>
+			</div>
+			</li>
+			<!-- /tline-->
+			<!-- tline-->
+			<li class="tline-item-right wow fadeInRight">
+			<div class="tline-item-content">
+				<div class="date-icon fa fa-camera">
+				</div>
+				<div class="tline-item-txt text-left">
+					<div class="meta">
+						 
+					</div>
+					<h3>Security and confidentiality</h3>
+					<p>
+						 the security and confidentiality of an exam are critical if the exam is to retain its value. 
+					</p>
+				</div>
+			</div>
+			</li>
+			<!-- /tline-->
+			<!-- tline-->
+			<li class="tline-item-left wow fadeInLeft">
+			<div class="tline-item-content">
+				<div class="date-icon fa fa-user">
+				</div>
+				<div class="tline-item-txt text-right">
+					<div class="meta">
+						 
+					</div>
+					<h3>Cost saving</h3>
+					<p>
+						When an exam is placed online, it results in significant cost savings. 
+					</p>
+				</div>
+			</div>
+			</li>
+			<!-- /tline-->
+			<!-- tline-->
+			<li class="tline-item-right wow fadeInRight">
+			<div class="tline-item-content">
+				<div class="date-icon fa fa-bullhorn">
+				</div>
+				<div class="tline-item-txt text-left">
+					<div class="meta">
+						 
+					</div>
+					<h3>Statistical analysis</h3>
+					<p>
+						 On a statistical point of view, compared data can be stored over time.  
+					</p>
+				</div>
+			</div>
+			</li>
+			<!-- /tline-->
+			<li class="tline-start">
+			<div class="tline-start-content">
+				<div class="tline-start-icon">
+				</div>
+				<a href="#" class="btn btn-primary bgn-xl wow zoomIn">START</a>
+			</div>
+			</li>
+		</ul>
+	</div>
+</div>
+</div>
+</section>
+
+<!-- Section Social
+================================================== -->
+<section id="social" class="parallax parallax-image" style="background-image:url(img/demo/dd.jpg);">
+<div class="overlay" style="background:#222;opacity:0.5;">
+</div>
+<div class="wrapsection">
+<div class="container">
+	<div class="parallax-content">
+		<div class="row wow fadeInLeft">
+			<div class="col-md-3">
+				<div class="funfacts text-center">
+					<div class="icon">
+						<a href="#"><i class="fa fa-twitter"></i></a>
+					</div>
+					<h4>Twitter</h4>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="funfacts text-center">
+					<div class="icon">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+					</div>
+					<h4>Facebook</h4>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="funfacts text-center">
+					<div class="icon">
+						<a href="#"><i class="fa fa-google"></i></a>
+					</div>
+					<h4>Google</h4>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="funfacts text-center">
+					<div class="icon">
+						<a href="#"><i class="fa fa-wordpress"></i></a>
+					</div>
+					<h4>Blog</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</section>
+<div class="clearfix">
+</div>
+
+<!-- Section Contact
+================================================== -->
+
+<!-- Section Footer
+================================================== -->
+<section class="bg-dark">
+<div class="container">
+<div class="row">
+	<div class="col-md-12 text-center">
+		<h1 class="bottombrand wow flipInX">ExamRig</h1>
+		<p>
+			&copy; 2017, Online Examination System . 
+		</p>
+	</div>
+</div>
+</div>
+</section>
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/parallax.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/countto.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>
